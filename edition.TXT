@@ -1,0 +1,36 @@
+v1.2.2 测试
+
+计算(frame_id + interval)%ckpt != 0 和 trackresckpt 之间的补偿 direct_vec？
+
+v1.2.1
+
+删除 TrackProcesser _update_lambda 方法，在heatmap 处获取window_double, 避免未更新window_center导致lambda出错
+
+命令行参数添加 setting, 指定配置文件的位置（矫正参数和窗口以及透视变换）
+-[(angle, inclination, init_col, xDim, yDim), (target_shape&window_size_init(w, h), size_factor(0.6, 1), perspective_flag)]
+
+v.1.2.0
+
+Timer 显示约束 fps 和真实 fps
+
+矫正速度(800万像素)
+INTER_NEAREST 最近邻插值 fps:40.5
+INTER_LINEAR 双线性插值 fps:23.4
+INTER_AREA 利用像素面积关系重采样 fps:23.6
+INTER_NEAREST_EXACT  位最近邻插值算法 fps:?
+
+v1.1.1
+
+可命令行设定抽帧数
+
+v1.1.0
+
+修复 img_process 的 window_center 和 byte_process 的 window_center 不一致的bug
+
+原因为 direct_vertor 的错误获取
+
+v1.0.0
+
+命令行参数添加 source, dest
+
+fps, soccer_model 由命令行参数指定

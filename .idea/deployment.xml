@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="jim@113.54.159.115:54104" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="jim@113.54.159.115:54104">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/media/ssd/huyongx/SoccerTrack" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="kb541@113.54.159.115:54102">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/kb541/media/huyongx/SoccerTrack" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="kb541@113.54.159.115:54102 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/kb541/media/huyongx/SoccerTrack" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="kb541@113.54.159.115:54102 password (1)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/kb541/media/huyongx/SoccerTrack" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
